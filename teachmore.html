@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="bootstrap-lib/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/teachmore.css"/>
+	<link rel="stylesheet" href="css/head_foot.css" />
+	<link rel="stylesheet" href="css/leftside.css" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
+	<script src="bootstrap-lib/js/bootstrap.min.js" charset="utf-8"></script>
+	<!--注意！注意！要将jquery-3.3.1.min.js的文件放在bootstrap.min.js文件前面引用！-->
+	<script src="js/jquery.singlePageNav.min.js" charset="utf-8"></script>
+	<script src="js/wow.min.js" charset="utf-8"></script>
+	<script>
+	  $(function() {
+		//处理小按钮的关闭
+		$('.navbar-collapse a').click(function() {
+		  $('.navbar-collapse').collapse('hide');
+	    });
+		new WOW().init();
+	  });
+	</script>
+	<title>静态网页设计学习平台首页</title>
+</head>
+<body>
+  <!--
+       作者：徐仕成
+       时间：2018-07-24
+       描述：start 头部导航栏
+      时间：2018-11-2
+      描述：更换平台的logo——第46行
+  -->
+  <nav class="navbar navbar-default navbar-fixed-top " id="header">
+	  <div class="container"> 
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse"
+			          data-target="#example-navbar-collapse">
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			  </button>
+			  <img src="img/logo5t.png" title="静态网页设计学习平台" />
+			</div>
+			<div class="collapse navbar-collapse" id="example-navbar-collapse">
+			  <ul class="nav navbar-nav navbar-right" >
+					<li><a href="index.html" target="_parent" >首页</a></li>
+					<li><a href="teach.html" target="_parent" class="active" >教学视频</a></li>
+					<li><a href="works.html" target="_parent">优秀作品</a></li>
+					<li><a href="mycenter.html" target="_parent" >个人中心</a></li>
+		    </ul>
+			</div>
+ 	  </div>
+  </nav>
+  <!--
+     作者：徐仕成
+     时间：2018-07-24
+     描述：end 头部导航栏
+  -->
+  
+  <!--
+      作者：徐仕成
+      时间：2018-07-24
+      描述：start 主体部分
+  -->
+  <section id="main">
+    <div class="container">
+      <div class="row" >
+    	<div class="col-md-2">
+	      <div class="leftside_top">
+			<h2>学习专区</h2>
+			<ul>
+			  <li><a href="http://www.runoob.com/ " target="_blank" title="RUNOOB">RUNOOB</a></li>
+			  <li><a href="http://edu.51cto.com/" target="_blank" title="51CTO">51CTO</a></li>
+			  <li><a href="https://www.imooc.com/" target="_blank" title="慕课网">慕课网</a></li>
+			  <li><a href="http://study.163.com/" target="_blank" title="网易云课堂">网易云课堂</a></li>
+			  <li><a href="http://www.lvyestudy.com/" target="_blank" title="绿叶学习网">绿叶学习网</a></li>
+			  <li><a href="https://developer.mozilla.org/zh-CN/" target="_blank" title="MDN">MDN</a></li>
+			  <li><a href="http://www.w3school.com.cn/" target="_blank" title="W3school">W3school</a></li>
+			  <li><a href="https://www.apicloud.com" target="_blank" title="APICloud">APICloud</a></li>
+			</ul>
+		  </div>
+		  <div class="leftside_bottom">
+			<h2>技术干货</h2>
+			<ul>
+			  <li><a href="http://www.bootcss.com/" target="_blank" title="Bootstrap框架">Bootstrap框架</a></li>
+			  <li><a href="http://xiazai.zol.com.cn/detail/43/421114.shtml" target="_blank" title="Dreamweaver下载">Dreamweaver下载</a></li>
+			  <li><a href="http://www.dcloud.io/" target="_blank" title="HBuilder下载">HBuilder下载</a></li>
+			  <li><a href="https://jquery.com/download/" target="_blank" title="JQuery下载">JQuery下载</a></li>
+			  <li><a href="http://jqueryui.com/" target="_blank" title="JQuery UI">JQuery UI</a></li>
+			  <li><a href="http://www.css88.com/react/" target="_blank" title="React">React</a></li>
+			  <li><a href="https://angularjs.org/" target="_blank" title="AngularJS">AngularJS</a></li>
+			  <li><a href="https://www.swiper.com.cn/" target="_blank" title="Swiper中文网">Swiper中文网</a></li>
+			  <li><a href="http://jquerymobile.com/" target="_blank" title="jQueryMobile">jQueryMobile</a></li>
+		    </ul>
+		  </div>
+	    </div>
+    	<div class="col-md-10">
+		  <!--右边区域-->
+		  <p class="message">当前位置：教学视频&gt;&gt;更多教学视频</p>
+		  <div class="content">
+			<div class="col-md-4">
+			  <a href="https://www.imooc.com/learn/931" alt="未找到图片信息" target="_blank"  title="css定位 position">
+			  <img src="img/teach1.PNG" class="img-responsive"/></a>
+			  <a href="https://www.imooc.com/learn/931" target="_blank" title="css定位 position">
+		      <p>CSS定位 position</p></a>
+			</div>
+			<div class="col-md-4">
+			  <a href="https://www.imooc.com/learn/755" alt="未找到图片信息" target="_blank"  title="CSS深入理解之border">
+			  <img src="img/teach2.PNG" class="img-responsive"/></a>
+			  <a href="https://www.imooc.com/learn/755"  target="_blank" title="CSS深入理解之border" >
+			   <p>CSS深入理解之border</p></a>
+		    </div>
+			<div class="col-md-4">
+			  <a href="https://www.imooc.com/learn/445" alt="未找到图片信息" target="_blank"  title="HTML5和CSS3扁平化风格博客">
+			  <img src="img/teach3.PNG" class="img-responsive"/></a>
+			  <a href="https://www.imooc.com/learn/445" target="_blank" title="HTML5和CSS3扁平化风格博客">
+			  <p>HTML5和CSS3扁平化风格博客</p></a>
+		    </div>
+			<div class="col-md-4">
+			  <a href="https://www.imooc.com/learn/9" alt="未找到图片信息" target="_blank"  title="HTML+CSS基础课程">
+			  <img src="img/teach4.PNG" class="img-responsive"/></a>
+			  <a href="https://www.imooc.com/learn/9" target="_blank" title="HTML+CSS基础课程" >
+			  <p>HTML+CSS基础课程</p></a>
+		    </div>
+			<div class="col-md-4">
+			  <a href="https://www.imooc.com/learn/100" alt="未找到图片信息" target="_blank" title="手把手教你实现电商网站开发">
+			  <img src="img/teach5.PNG" class="img-responsive"/></a>
+			  <a href="https://www.imooc.com/learn/100" target="_blank" title="手把手教你实现电商网站开发">
+			  <p>手把手教你实现电商网站开发</p></a>
+		    </div>
+			<div class="col-md-4">
+			  <a href="https://www.imooc.com/learn/57" alt="未找到图片信息" target="_blank"  title="如何用CSS进行网页布局">
+			  <img src="img/teach6.PNG" class="img-responsive"/></a>
+			  <a href="https://www.imooc.com/learn/57" target="_blank" title="如何用CSS进行网页布局" >
+			  <p>如何用CSS进行网页布局</p></a>
+			</div>
+			<div class="col-md-4">
+			  <a href="https://www.imooc.com/learn/6" alt="未找到图片信息" target="_blank"  title="导航条菜单的制作">
+			  <img src="img/teach7.PNG" class="img-responsive"/></a>
+			  <a href="https://www.imooc.com/learn/6" target="_blank" title="导航条菜单的制作">
+			  <p>导航条菜单的制作</p></a>
+		    </div>
+			<div class="col-md-4">
+			  <a href="https://www.imooc.com/learn/121" alt="未找到图片信息" target="_blank"  title="CSS深入理解之float浮动">
+			  <img src="img/teach8.PNG" class="img-responsive"/></a>
+			  <a href="https://www.imooc.com/learn/121" target="_blank" title="CSS深入理解之float浮动">
+			  <p>CSS深入理解之float浮动</p></a>
+			</div>
+			<div class="col-md-4">
+			  <a href="https://www.imooc.com/learn/20" alt="未找到图片信息" target="_blank"title="网页简单布局之结构与表现原则">
+			  <img src="img/teach9.PNG" class="img-responsive"/></a>
+		      <a href="https://www.imooc.com/learn/20" class="content_word" target="_blank"title="网页简单布局之结构与表现原则">
+			  <p>网页简单布局之结构与表现原则</p></a>
+			</div>
+			<div class="col-md-4">
+			  <a href="https://www.imooc.com/learn/36" alt="未找到图片信息" target="_blank"  title="JavaScript入门篇">
+			  <img src="img/teach10.PNG" class="img-responsive"/></a>
+			  <a href="https://www.imooc.com/learn/36"target="_blank" title="JavaScript入门篇">
+			  <p>JavaScript入门篇</p></a>
+			</div>
+			<div class="col-md-4">
+			  <a href="https://www.imooc.com/learn/759" alt="未找到图片信息" target="_blank"  title="浏览器开发者工具使用技巧">
+			  <img src="img/teach11.PNG" class="img-responsive"/></a>
+			  <a href="https://www.imooc.com/learn/759" class="content_word" target="_blank" title="浏览器开发者工具使用技巧">
+			  <p>浏览器开发者工具使用技巧</p></a>
+		    </div>
+			<div class="col-md-4">
+			  <a href="https://www.imooc.com/learn/473" alt="未找到图片信息" target="_blank" title="CSS3图片动态提示效果">
+			  <img src="img/teach12.PNG" class="img-responsive"/></a>
+			  <a href="https://www.imooc.com/learn/473" target="_blank" title="CSS3图片动态提示效果">
+			  <p>CSS3图片动态提示效果</p></a>
+			</div>
+			<div class="col-md-4">
+			  <a href="https://www.imooc.com/learn/252" alt="未找到图片信息" target="_blank"  title="css3实现网页平滑过渡效果">
+			  <img src="img/teach13.PNG" class="img-responsive"/></a>
+			  <a href="https://www.imooc.com/learn/252"  target="_blank" title="css3实现网页平滑过渡效果">
+			  <p>css3实现网页平滑过渡效果</p></a>
+		    </div>
+			<div class="col-md-4">
+			  <a href="https://www.imooc.com/learn/362" alt="未找到图片信息" target="_blank"  title="数学知识在CSS动画中的应用">
+			  <img src="img/teach14.PNG" class="img-responsive"/></a>
+			  <a href="https://www.imooc.com/learn/362"  target="_blank" title="数学知识在CSS动画中的应用">
+			  <p>数学知识在CSS动画中的应用</p></a>
+		    </div>
+			<div class="col-md-4">
+			  <a href="https://www.imooc.com/learn/357" alt="未找到图片信息" target="_blank" title="CSS动画实用技巧">
+			  <img src="img/teach15.PNG" class="img-responsive"/></a>
+			  <a href="https://www.imooc.com/learn/357"  target="_blank" title="CSS动画实用技巧">
+			  <p>CSS动画实用技巧</p></a>
+		    </div>
+			<div class="col-md-4">
+			  <a href="https://www.imooc.com/learn/240" alt="未找到图片信息" target="_blank"  title="CSS3实现“图片阴影”效果">
+			  <img src="img/teach16.PNG" class="img-responsive"/></a>
+			  <a href="https://www.imooc.com/learn/240" target="_blank" title="CSS3实现“图片阴影”效果">
+			  <p>CSS3实现“图片阴影”效果</p></a>
+		    </div>
+			<div class="col-md-4">
+			  <a href="https://www.imooc.com/learn/141" alt="未找到图片信息" target="_blank"  title="玩转Bootstrap（基础）">
+			  <img src="img/teach17.PNG" class="img-responsive"/></a>
+			  <a href="https://www.imooc.com/learn/141" target="_blank" title="玩转Bootstrap（基础）">
+			  <p>玩转Bootstrap（基础）</p></a>
+		    </div>
+			<div class="col-md-4">
+			  <a href="https://www.imooc.com/learn/5" alt="未找到图片信息" target="_blank" title="按钮特效">
+			  <img src="img/teach18.PNG" class="img-responsive"/></a>
+			  <a href="https://www.imooc.com/learn/5"  target="_blank" title="按钮特效">
+			  <p>按钮特效</p></a>
+			</div>
+		  </div>
+    	</div>
+      </div>
+    </div>
+  </section>
+  <!--
+       作者：徐仕成
+        时间：2018-07-24
+        描述：end 主体部分
+  -->
+  
+  <!--
+     作者：徐仕成
+      时间：2018-07-25
+      描述：start 底部
+  -->
+  <footer id="endfooter">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-md-12">
+			<p>Copyright&copy;2018-11-2 by 徐仕成 版本号：2.1</p>
+			<p>本平台内容来自互联网，如内容有侵权，请联系本人删除。&nbsp;&nbsp;鄂ICP备18020158号</p>
+			<p>联系电话：15897677961	QQ：2775886918	微信：15897677961</p>
+		  </div>
+		</div>
+	  </div>
+  </footer>
+  <!--
+       作者：徐仕成
+       时间：2018-07-25
+       描述：end 底部
+  -->
+</body>
+</html>

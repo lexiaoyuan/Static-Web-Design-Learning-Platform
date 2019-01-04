@@ -1,0 +1,52 @@
+* CSS Document */
+@charset "utf-8";
+/*公用*/
+body { margin: 0; padding: 0; }
+a:hover { outline: none; }
+/*中间*/
+.col-md-6 { 
+	height: auto; 
+	margin-top: 90px; 
+	margin-bottom: 200px; 
+	text-align: center; 
+	border: 1px solid #ADE2F0; 
+	border-radius: 10px;
+	}
+.col-md-6 h1 {
+	margin-top: 10px; 
+	margin-bottom: 30px; 
+	font-weight: bold; 
+	font-family: "微软雅黑"; 
+	color: #996600; 
+	text-shadow: 3px 3px #0099FF;
+	}
+.register label {
+	font-size: 16px; 
+	font-family: "微软雅黑"; 
+	line-height: 35px; 
+	float: right; 
+	margin-right: 152px;
+	}
+.register label input {
+	font-size: 14px; 
+	font-family: "微软雅黑"; 
+	border: 1px solid #00CCFF; 
+	margin-top: 10px;
+	}
+#tel-number, #pwd, #confirm-pwd { width: 200px; height: 30px; text-indent: 4px; }
+#verification-code { width: 100px; height:30px; text-indent: 4px; }
+.register label input[type="button"] {
+	margin-top: -5px; 
+	margin-left: 22px; 
+	background: #00CCFF; 
+	border: none;
+	}
+#register-btn {
+	float:right; 
+	margin: 10px 230px 60px 0px; 
+	background: #00CCFF; 
+	width: 100px; 
+	border: none;
+	border-radius: 20px; 
+	}
+.register input[type="button"]:hover { background: #66AFE9; color: #996600; border: none;}

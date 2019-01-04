@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="bootstrap-lib/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/worksmore.css"/>
+	<link rel="stylesheet" href="css/head_foot.css" />
+	<link rel="stylesheet" href="css/leftside.css" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
+	<script src="bootstrap-lib/js/bootstrap.min.js" charset="utf-8"></script>
+	<!--注意！注意！要将jquery-3.3.1.min.js的文件放在bootstrap.min.js文件前面引用！-->
+	<script src="js/jquery.singlePageNav.min.js" charset="utf-8"></script>
+	<script src="js/wow.min.js" charset="utf-8"></script>
+	<script>
+	  $(function() {
+		//处理小按钮的关闭
+		$('.navbar-collapse a').click(function() {
+		  $('.navbar-collapse').collapse('hide');
+	    });
+		new WOW().init();
+	  });
+	</script>
+	<title>静态网页设计学习平台首页</title>
+</head>
+<body>
+  <!--
+       作者：徐仕成
+       时间：2018-07-24
+      描述：start 头部导航栏
+      时间：2018-11-2
+      描述：更换平台的logo——第46行
+  -->
+  <nav class="navbar navbar-default navbar-fixed-top " id="header">
+	  <div class="container"> 
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse"
+			          data-target="#example-navbar-collapse">
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			  </button>
+			  <img src="img/logo5t.png" title="静态网页设计学习平台" />
+			</div>
+			<div class="collapse navbar-collapse" id="example-navbar-collapse">
+			  <ul class="nav navbar-nav navbar-right" >
+					<li><a href="index.html" target="_parent" >首页</a></li>
+					<li><a href="teach.html" target="_parent">教学视频</a></li>
+					<li><a href="works.html" target="_parent" class="active" >优秀作品</a></li>
+					<li><a href="mycenter.html" target="_parent" >个人中心</a></li>
+		    </ul>
+			</div>
+ 	  </div>
+  </nav>
+  <!--
+       作者：徐仕成
+       时间：2018-07-24
+       描述：end 头部导航栏
+  -->
+  <!--
+       作者：徐仕成
+       时间：2018-07-24
+       描述：start 主体部分
+  -->
+  <section id="main">
+    <div class="container">
+      <div class="row" >
+    	<div class="col-md-2">
+	      <div class="leftside_top">
+			<h2>学习专区</h2>
+			<ul>
+			  <li><a href="http://www.runoob.com/ " target="_blank" title="RUNOOB">RUNOOB</a></li>
+			  <li><a href="http://edu.51cto.com/" target="_blank" title="51CTO">51CTO</a></li>
+			  <li><a href="https://www.imooc.com/" target="_blank" title="慕课网">慕课网</a></li>
+			  <li><a href="http://study.163.com/" target="_blank" title="网易云课堂">网易云课堂</a></li>
+			  <li><a href="http://www.lvyestudy.com/" target="_blank" title="绿叶学习网">绿叶学习网</a></li>
+			  <li><a href="https://developer.mozilla.org/zh-CN/" target="_blank" title="MDN">MDN</a></li>
+			  <li><a href="http://www.w3school.com.cn/" target="_blank" title="W3school">W3school</a></li>
+			  <li><a href="https://www.apicloud.com" target="_blank" title="APICloud">APICloud</a></li>
+			</ul>
+		  </div>
+		  <div class="leftside_bottom">
+			<h2>技术干货</h2>
+			<ul>
+			  <li><a href="http://www.bootcss.com/" target="_blank" title="Bootstrap框架">Bootstrap框架</a></li>
+			  <li><a href="http://xiazai.zol.com.cn/detail/43/421114.shtml" target="_blank" title="Dreamweaver下载">Dreamweaver下载</a></li>
+			  <li><a href="http://www.dcloud.io/" target="_blank" title="HBuilder下载">HBuilder下载</a></li>
+			  <li><a href="https://jquery.com/download/" target="_blank" title="JQuery下载">JQuery下载</a></li>
+			  <li><a href="http://jqueryui.com/" target="_blank" title="JQuery UI">JQuery UI</a></li>
+			  <li><a href="http://www.css88.com/react/" target="_blank" title="React">React</a></li>
+			  <li><a href="https://angularjs.org/" target="_blank" title="AngularJS">AngularJS</a></li>
+			  <li><a href="https://www.swiper.com.cn/" target="_blank" title="Swiper中文网">Swiper中文网</a></li>
+			  <li><a href="http://jquerymobile.com/" target="_blank" title="jQueryMobile">jQueryMobile</a></li>
+		    </ul>
+		  </div>
+	    </div>
+    	<div class="col-md-10">
+		  <!--右边区域-->
+		  <p class="message">当前位置：优秀作品&gt;&gt;更多优秀作品</p>
+		  <div class="content">
+			<div class="col-md-4">
+				<a href="http://dropr.com/" alt="未找到图片信息"  title="Dropr" target="_blank">
+				<img src="img/droprcom.jpg" class="img-responsive"/></a>
+				<a href="http://dropr.com/" title="Dropr" target="_blank">
+				<p>Dropr</p></a>
+			  </div>
+			<div class="col-md-4">
+				<a href="http://www.dascolabarbers.com/" alt="未找到图片信息" title="Dascola Barbers" target="_blank">
+				<img src="img/dascolabarbers.jpg" class="img-responsive"/></a>
+				<a href="http://www.dascolabarbers.com/" title="Dascola Barbers" target="_blank">
+				<p>Dascola Barbers</p></a>
+			  </div>
+			<div class="col-md-4">
+				<a href="https://www.kevadamson.com/" alt="未找到图片信息"  title="Kev Adamson" target="_blank">
+				<img src="img/kevadamsoncom.jpg" class="img-responsive"/></a>
+				<a href="https://www.kevadamson.com/" title="Kev Adamson" target="_blank">
+				<p>Kev Adamson</p></a>
+			  </div>
+			<div class="col-md-4">
+				<a href="https://www.artattackk.com/" alt="未找到图片信息"  title="Art Attackk" target="_blank">
+				<img src="img/artattackk.jpg" class="img-responsive"/></a>
+				<a href="https://www.artattackk.com/" title="Art Attackk" target="_blank">
+				<p>Art Attackk</p></a>
+			  </div>
+			<div class="col-md-4">
+			    <a href="http://grzegorzkozak.pl/" alt="未找到图片信息"  title="Grzegorz Kozak" target="_blank">
+				<img src="img/grzegorzkozak.jpg" class="img-responsive"/></a>
+				<a href="http://grzegorzkozak.pl/" title="Grzegorz Kozak" target="_blank">
+				<p>Grzegorz Kozak</p></a>
+			  </div>
+			<div class="col-md-4">
+				<a href="https://dbushell.com/" alt="未找到图片信息"  title="DBushell" target="_blank">
+				<img src="img/dbushellcom.jpg" class="img-responsive"/></a>
+				<a href="https://dbushell.com/" title="DBushell" target="_blank">
+				<p>DBushell</p></a>
+			  </div>
+			<div class="col-md-4">
+				<a href="http://www.blancpain-ocean-commitment.com/en-us#!/home/" alt="未找到图片信息"  title="BLANCPAIN OCEAN COMMITMENT" target="_blank">
+				<img src="img/blancpain.jpg" class="img-responsive"/></a>
+				<a href="http://www.blancpain-ocean-commitment.com/en-us#!/home/"  target="_blank" title="BLANCPAIN OCEAN COMMITMENT">
+				<p>BLANCPAIN OCEAN </p></a>
+		      </div>
+			<div class="col-md-4">
+			    <a href="http://www.creative-knight.com/" alt="未找到图片信息" title="CREATIVE KNIGHT" target="_blank">
+				<img src="img/creativeknight.jpg" class="img-responsive"/></a>
+				<a href="http://www.creative-knight.com/"  target="_blank" title="CREATIVE KNIGHT">
+				<p>CREATIVE KNIGHT</p></a>
+			  </div>
+			<div class="col-md-4">
+				<a href="http://fluky.io/" alt="未找到图片信息"  title="FLUKY" target="_blank">
+				<img src="img/fluky.jpg" class="img-responsive"/></a>
+				<a href="http://fluky.io/" target="_blank" title="FLUKY">
+				<p>FLUKY</p></a>
+			  </div>
+			<div class="col-md-4">
+				<a href="https://followbubble.com/" alt="未找到图片信息"  title="FOLLOWBUBBLE" target="_blank">
+				<img src="img/followbubble.jpg" class="img-responsive"/></a>
+				<a href="https://followbubble.com/" target="_blank" title="FOLLOWBUBBLE">
+				<p>FOLLOWBUBBLE</p></a>
+			  </div>
+			<div class="col-md-4">
+			    <a href="https://gardenestudio.com.br/" alt="未找到图片信息"  title="GARDEN" target="_blank">
+				<img src="img/graden.jpg" class="img-responsive"/></a>
+				<a href="https://gardenestudio.com.br/" target="_blank" title="GARDEN">
+				<p>GARDEN</p></a>
+			  </div>
+			<div class="col-md-4">
+				<a href="https://onedesigncompany.com/" alt="未找到图片信息"  title="ONE DESIGN" target="_blank">
+				<img src="img/onedesign.jpg" class="img-responsive"/></a>
+				<a href="https://onedesigncompany.com/" target="_blank" title="ONE DESIGN">
+				<p>ONE DESIGN</p></a>
+			  </div>
+	      </div>
+    	</div>
+      </div>
+    </div>
+  </section>
+  <!--
+       作者：徐仕成
+       时间：2018-07-24
+       描述：end 主体部分
+  -->
+  <!--
+       作者：徐仕成
+       时间：2018-07-25
+       描述：start 底部
+  -->
+  <footer id="endfooter">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-md-12">
+			<p>Copyright&copy;2018-11-2 by 徐仕成 版本号：2.1</p>
+			<p>本平台内容来自互联网，如内容有侵权，请联系本人删除。&nbsp;&nbsp;鄂ICP备18020158号</p>
+			<p>联系电话：15897677961	QQ：2775886918	微信：15897677961</p>
+		  </div>
+		</div>
+	  </div>
+  </footer>
+  <!--
+       作者：徐仕成
+       时间：2018-07-25
+       描述：end 底部
+  -->
+</body>
+</html>

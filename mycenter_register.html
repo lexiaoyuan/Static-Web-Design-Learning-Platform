@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet"  href="css/animate.css" />
+	<link rel="stylesheet"  href="bootstrap-lib/css/bootstrap.min.css"/>
+	<link rel="stylesheet"  href="css/mycenter_register.css"/>
+	<link rel="stylesheet" href="css/head_foot.css" />
+	<link rel="stylesheet"  href="css/reset.css" />
+	<script  src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
+	<script  src="bootstrap-lib/js/bootstrap.min.js" charset="utf-8"></script>
+	<!--注意！注意！要将jquery-3.3.1.min.js的文件放在bootstrap.min.js文件前面引用！-->
+	<script  src="js/jquery.singlePageNav.min.js" charset="utf-8"></script>
+	<script  src="js/wow.min.js" charset="utf-8"></script>
+	<script>
+	  $(function() {
+		//处理小按钮的关闭
+		$('.navbar-collapse a').click(function() {
+		  $('.navbar-collapse').collapse('hide');
+	    });
+		new WOW().init();
+	  });
+	</script>
+	<title>静态网页设计学习平台首页</title>
+</head>
+<body>
+  <!--
+      作者：徐仕成
+      时间：2018-07-24
+      描述：start 头部导航栏
+      时间：2018-11-2
+      描述：更换平台的logo——第45行
+  -->
+  <nav class="navbar navbar-default navbar-fixed-top " id="header">
+	  <div class="container"> 
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse"
+			          data-target="#example-navbar-collapse">
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			  </button>
+			  <img src="img/logo5t.png" title="静态网页设计学习平台" />
+			</div>
+			<div class="collapse navbar-collapse" id="example-navbar-collapse">
+			  <ul class="nav navbar-nav navbar-right" >
+				<li><a href="index.html" target="_parent" >首页</a></li>
+				<li><a href="teach.html" target="_parent">教学视频</a></li>
+				<li><a href="works.html" target="_parent">优秀作品</a></li>
+				<li><a href="mycenter.html" target="_parent" class="active" >个人中心</a></li>
+		      </ul>
+			</div>
+ 	  </div>
+  </nav>
+  <!--
+       作者：徐仕成
+       时间：2018-07-24
+      描述：end 头部导航栏
+  -->
+  
+  <!--
+     作者：徐仕成
+     时间：2018-07-28
+     描述：start 注册框
+  -->
+  <section id="main">
+   	<div class="container">
+   	  <div class="row">
+   	    <div class="col-md-3"></div>
+   		<div class="col-md-6">
+   		  <h1>欢迎注册</h1>
+   		  <div class="register">
+		    <form action="#" method="post" >
+			  <label for="tel-number">手机号：<input type="text" id="tel-number" size="20px" maxlength="11px" placeholder="请输入手机号" required  /></label>
+			  <label for="pwd" >设置密码：<input type="password" id="pwd" size="20px" placeholder="请设置密码" required /></label>
+			  <label for="confirm-pwd">确认密码：<input type="password" id="confirm-pwd" size="20px" placeholder="请确认密码" required/></label>
+			  <label for="verification-code">验证码：<input type="text" id="verification-code" size="20px" maxlength="6px" placeholder="请输入验证码"  required/><input type="button" class="btn btn-primary" value="获取验证码" required /></label>
+			  <input type="button" id="register-btn" class="btn btn-primary" value="注 册" required />
+			</form>	
+		  </div>
+   		</div>
+   		<div class="col-md-3"></div>
+   	  </div>
+   	</div>
+  </section>
+  <!--
+     作者：徐仕成
+     时间：2018-07-28
+     描述：end 注册框
+  -->
+  
+  <!--
+       作者：徐仕成
+       时间：2018-07-28
+      描述：start 底部
+  -->
+  <footer id="endfooter">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-md-12">
+			<p>Copyright&copy;2018-11-2 by 徐仕成 版本号：2.1</p>
+			<p>本平台内容来自互联网，如内容有侵权，请联系本人删除。&nbsp;&nbsp;鄂ICP备18020158号</p>
+			<p>联系电话：15897677961	QQ：2775886918	微信：15897677961</p>
+		  </div>
+		</div>
+	  </div>
+  </footer>
+  <!--
+      作者：徐仕成
+      时间：2018-07-28
+     描述：end 底部
+  -->
+</body>
+</html>

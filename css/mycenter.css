@@ -1,0 +1,117 @@
+* CSS Document */
+@charset "utf-8";
+/*公用*/
+body { margin: 0; padding: 0; }
+a:hover { outline: none; cursor: pointer; }
+/*主体部分*/
+#main { padding-top: 70px; overflow: auto; }
+/*左边功能信息栏*/
+.leftside {
+	border: 1px solid #E5ECF2;
+	margin: 5px 0px; 
+	margin-left: 18px; 
+	text-align: center;
+	width: 204px; 
+	font-family: "微软雅黑"; 
+	border-radius: 2px; 
+	background-color: #E0F8FB; 
+	font-size: 14px;
+	}
+.leftside-top img {
+	border-radius: 50%; 
+	border: 1px solid #00FFFF; 
+	width: 50px; 
+	height: 50px; 
+	float: left; 
+	margin: 8px 0px 0px 65px; 
+	} 
+.leftside-top { height: 130px; border-bottom: 1px solid #ade2f0; }
+.leftside-top p { line-height: 30px; }
+.glyphicon { margin-right: 8px; }
+#nickname { 
+	padding-top: 20px; 
+	padding-right: 35px; 
+	/*不允许换行*/
+	white-space: nowrap;
+	/*超出部分隐藏*/
+	overflow: hidden;
+	/*设置省略标记*/
+	text-overflow: ellipsis;
+	}
+#profession { float: left; padding-left: 70px;}
+#signature { 
+	text-indent: 5px; 
+	float: left; 
+	/*不允许换行*/
+	white-space:nowrap;
+	/*超出部分隐藏*/
+	overflow:hidden;
+	/*设置省略标记*/
+	text-overflow:ellipsis;
+	}
+.leftside a { color: #000000;  line-height: 35px; }
+.leftside a:hover { color: #CC9900; text-decoration: none; }
+.leftside a:active { text-decoration: none; }
+.leftside li { 
+	border-bottom: 1px solid #ade2f0; 
+	transition: 0.2s; 
+	background-color: #E0F8FB; 
+	}
+.leftside li:hover {
+	transform-origin: center bottom; 
+	transform: scale(1.1); 
+	border-radius: 8px;
+	border-top: 1px solid #ade2f0;
+	}
+.leftside ul div { padding-bottom: 140px; }
+/*中间上传文件区域*/
+#imgchoose, #btnchoose { opacity: 0; }
+.img_choose {
+	width: 130px; 
+	heigh: 130px;  
+	cursor: pointer; 
+	margin: 20px 0px 0px 50px;
+	}
+.img_choose img { width:130px; height: 130px; }
+.btn_choose { 
+	width: 80px; 
+	height: 30px; 
+	background: #00CCFF; 
+	border: none; 
+	font-size: 14px; 
+	font-family: "微软雅黑";
+	text-align: center;  
+	border-radius: 4px; 
+	padding: 0px 8px; 
+	cursor: pointer; 
+	margin-left: 75px; 
+	line-height: 30px;
+	margin-top: -10px;
+	}
+.btn_choose:hover { color: #996600; }
+/*右边登录和我的消息区域*/
+.login, .comment { 
+	margin-top: 20px; 
+	width: 204px;  
+	float: right; 
+	margin-right: 18px; 
+	font-family: "微软雅黑"; 
+	border-radius: 10px; 
+	border: 1px solid #ade2f0; 
+	text-align: center;
+	}
+.login legend { font-size: 18px; }
+.login p { font-size: 14px; line-height: 35px; }
+.login input { text-indent: 4px; width: 150px; height: 28px; border: 1px solid #00CCFF;}
+.login button {
+	margin: 10px; 
+	background-color: #ade2f0; 
+	height: 30px; 
+	width: 60px; 
+	border: none;
+	color: #000000; 
+	border-radius: 5px;
+	}
+.login button:hover { background-color: #996600; color: #FFFFFF; }
+.comment { height: 355px; font-size: 18px; }
+.comment em{font-size: 14px; font-family: "宋体";}

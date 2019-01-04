@@ -1,0 +1,64 @@
+/* CSS Document */
+@charset "utf-8";
+/*公用*/
+body { margin: 0; padding: 0; }
+a:hover { outline: none; }
+/*主体部分*/
+#main { padding-top: 70px; }
+/*左边:leftside.css*/
+/*右边*/
+.col-md-10 { padding-top: 10px; }
+.col-md-10 .message {
+	width: 892px; 
+	height: 30px; 
+	border: 1px solid #00CCFF;  
+	border-radius: 5px; 
+	margin: 5px 18px; 
+	float: right; 
+	font-size: 16px; 
+	font-family: "微软雅黑";
+	}
+.col-md-10 .message .word {
+	width: 136px; 
+	color: #FFFFFF; 
+	background-color: #0066FF; 
+	line-height: 30px; 
+	text-indent: 20px; 
+	border-radius: 5px;
+	display: block;
+	}
+.col-md-10 .message a {
+	padding-right: 20px; 
+	color: #5D7DC7; 
+	line-height: 30px; 
+	display: block; 
+	float: right; 
+	margin-top: -30px; 
+	text-decoration: none;
+	}
+.col-md-10 .message a:hover { color:#996600; }
+.col-md-10 .content {
+	width: 892px; 
+	height: auto; 
+	float: right; 
+	margin: 0px 18px;
+	}
+.col-md-10 .col-md-4 img {
+	width: 375px; 
+	height: 265px; 
+	border-radius: 10px; 
+	margin-bottom: 10px; 
+	transition: .3s linear;
+	}
+.col-md-10 .col-md-4 img:hover { transform-origin: center-bottom; transform: scale(1.05); }
+.col-md-10 .col-md-4 p {
+	text-align: center; 
+	font-size: 16px; 
+	font-family: "微软雅黑"; 
+	line-height: 20px; 
+	height: 35px; 
+	transition: .3s;
+	}
+.col-md-10 .col-md-4 p:hover { transform-origin: center top; transform: scale(1.1); }
+.col-md-10 .col-md-4 a { text-decoration: none; color: #666666; }
+.col-md-10 .col-md-4 a:hover { color:#993300; text-decoration: underline; }

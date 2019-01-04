@@ -1,0 +1,25 @@
+.col-md-2 {
+	padding-top: 5px; 
+	text-align: center; 
+	line-height: 35px; 
+	}
+.leftside_top, .leftside_bottom {
+	border: 1px solid #00FFFF; 
+	margin: 5px 0; 
+	border-radius: 10px;
+    margin-left: 18px; 
+    width: 204px;
+    }
+.col-md-2 h2 { font-family: "华文行楷"; }
+.col-md-2 a { color: #0033CC; font-size: 17px; }
+.col-md-2 a:hover { color: #996600; text-decoration: underline; }
+.col-md-2 li {
+	background-color: #E0F8FB;
+	border-bottom: 1px solid #ade2f0;
+	transition: .3s;
+	}
+.col-md-2 li:hover {
+	transform-origin: center top; 
+	transform: scale(1.1); 
+	border-radius: 5px;
+	}

@@ -1,0 +1,44 @@
+/* CSS Document */
+@charset "utf-8";
+/*公用*/
+body { margin: 0; padding: 0; }
+a:hover { outline:none; }
+/*主体部分*/
+#main {padding-top: 70px;}
+/*左边:leftside.css*/
+/*右边*/
+.col-md-10 { padding-top: 10px; }
+.col-md-10 .message {
+	width: 882px; 
+	height: 30px; 
+	float: right; 
+	margin: 25px 18px 10px 36px;
+	border-bottom: 1px solid #2F82C8; 
+	font-family: "微软雅黑"; 
+	font-size: 16px;
+	}
+.col-md-10 .content {
+	width: 882px; 
+	height: auto; 
+	float: right; 
+	margin: 5px 18px;
+	}
+.col-md-10 .content a {
+	font-size: 17px; 
+	font-family: "微软雅黑"; 
+	line-height: 50px; 
+	text-indent: 26px; 
+	color: #000000; 
+	float: left; 
+	text-decoration: none;
+	}
+.col-md-10 .content li { border-bottom: 1px dashed #ccc; overflow: hidden; }
+.col-md-10 .content p {
+	float: right; 
+	font-family: "微软雅黑"; 
+	font-size: 17px; 
+	line-height: 50px; 
+	margin-right: 15px;
+	color: #000000;
+	}
+.col-md-10 .content a:hover { color: #996600; }

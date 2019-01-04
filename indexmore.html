@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="bootstrap-lib/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/indexmore.css"/>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/head_foot.css" />
+	<link rel="stylesheet" href="css/leftside.css" />
+	<script src="js/jquery-3.3.1.min.js" ></script>
+	<script src="bootstrap-lib/js/bootstrap.min.js" ></script>
+	<!--注意！注意！要将jquery-3.3.1.min.js的文件放在bootstrap.min.js文件前面引用！-->
+	<script src="js/jquery.singlePageNav.min.js" ></script>
+	<script src="js/wow.min.js" ></script>
+	<script>
+	  $(function() {
+		//处理小按钮的关闭
+		$('.navbar-collapse a').click(function() {
+		  $('.navbar-collapse').collapse('hide');
+	    });
+		new WOW().init();
+	  });
+	</script>
+	<title>静态网页设计学习平台首页</title>
+</head>
+  <!--
+       作者：徐仕成
+       时间：2018-07-25
+       描述：start 头部导航栏
+       时间：2018-11-2
+      描述：更换平台的logo——第45行
+  -->
+  <nav class="navbar navbar-default navbar-fixed-top " id="header">
+	  <div class="container"> 
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse"
+			          data-target="#example-navbar-collapse">
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			  </button>
+			  <img src="img/logo5t.png" title="静态网页设计学习平台" />
+			</div>
+			<div class="collapse navbar-collapse" id="example-navbar-collapse">
+			  <ul class="nav navbar-nav navbar-right" >
+					<li><a href="index.html" target="_parent" class="active" >首页</a></li>
+					<li><a href="teach.html" target="_parent">教学视频</a></li>
+					<li><a href="works.html" target="_parent">优秀作品</a></li>
+					<li><a href="mycenter.html" target="_parent" >个人中心</a></li>
+		    </ul>
+			</div>
+ 	  </div>
+  </nav>
+  <!--
+       作者：徐仕成
+       时间：2018-07-25
+      描述：end 头部导航栏
+  -->
+  
+  <!--
+       作者：徐仕成
+       时间：2018-07-25
+       描述：start 主体部分
+   -->
+  <section id="main">
+    <div class="container">
+      <div class="row" >
+        <div class="col-md-2">
+	      <div class="leftside_top">
+			<h2>学习专区</h2>
+			<ul>
+			  <li><a href="http://www.runoob.com/ " target="_blank" title="RUNOOB">RUNOOB</a></li>
+			  <li><a href="http://edu.51cto.com/" target="_blank" title="51CTO">51CTO</a></li>
+			  <li><a href="https://www.imooc.com/" target="_blank" title="慕课网">慕课网</a></li>
+			  <li><a href="http://study.163.com/" target="_blank" title="网易云课堂">网易云课堂</a></li>
+			  <li><a href="http://www.lvyestudy.com/" target="_blank" title="绿叶学习网">绿叶学习网</a></li>
+			  <li><a href="https://developer.mozilla.org/zh-CN/" target="_blank" title="MDN">MDN</a></li>
+			  <li><a href="http://www.w3school.com.cn/" target="_blank" title="W3school">W3school</a></li>
+			  <li><a href="https://www.apicloud.com" target="_blank" title="APICloud">APICloud</a></li>
+			</ul>
+		  </div>
+		  <div class="leftside_bottom">
+			<h2>技术干货</h2>
+			<ul>
+			  <li><a href="http://www.bootcss.com/" target="_blank" title="Bootstrap框架">Bootstrap框架</a></li>
+			  <li><a href="http://xiazai.zol.com.cn/detail/43/421114.shtml" target="_blank" title="Dreamweaver下载">Dreamweaver下载</a></li>
+			  <li><a href="http://www.dcloud.io/" target="_blank" title="HBuilder下载">HBuilder下载</a></li>
+			  <li><a href="https://jquery.com/download/" target="_blank" title="JQuery下载">JQuery下载</a></li>
+			  <li><a href="http://jqueryui.com/" target="_blank" title="JQuery UI">JQuery UI</a></li>
+			  <li><a href="http://www.css88.com/react/" target="_blank" title="React">React</a></li>
+			  <li><a href="https://angularjs.org/" target="_blank" title="AngularJS">AngularJS</a></li>
+			  <li><a href="https://www.swiper.com.cn/" target="_blank" title="Swiper中文网">Swiper中文网</a></li>
+			  <li><a href="http://jquerymobile.com/" target="_blank" title="jQueryMobile">jQueryMobile</a></li>
+		    </ul>
+		  </div>
+	    </div>
+    	<div class="col-md-10">
+    	  <!--右边区域-->
+			<p class="message">当前位置：首页&gt;&gt;更多比赛信息</p>
+			<div class="content">
+			  <div class="content_ul">
+				<ul>
+				  <li><a href="http://aicontest.baidu.com/" target="_blank" 
+				  	title="2018“中国高校计算机大赛—人工智能创意赛">2018“中国高校计算机大赛—人工智能创意赛”</a>
+				  	<p>2018-06-12</p>
+				  </li>
+				  <li><a href="http://diy.haier.com/raphael/designergame/start/?id=2" target="_blank" 
+				  	title="Air+计划—海尔空调创新设计大赛">Air+计划—海尔空调创新设计大赛</a>
+				  	<p>2018-06-11</p>
+				  </li>
+				  <li><a href="http://uchallenge.unipus.cn/" target="_blank" 
+				  	title="2018“外研社杯”全国英语大赛（演讲+写作+阅读">2018“外研社杯”全国英语大赛（演讲+写作+阅读）</a>
+				  	<p>2018-06-11</p>
+				  </li>
+				  <li><a href="http://jsjds.ruc.edu.cn/" target="_blank" 
+				  	title="2018年(第11届)中国大学生计算机设计大赛">2018年(第11届)中国大学生计算机设计大赛</a>
+				    <p>2018-06-04</p>
+				  </li>
+				  <li><a href="http://www.iiec.org.cn/" target="_blank" 
+				  	title="第四届“i创杯”互联网创新创业大赛">第四届“i创杯”互联网创新创业大赛</a>
+				  	<p>2018-05-31</p>
+				  </li>
+				  <li><a href="http://innovation.pkusp.com.cn/cyds/" target="_blank" 
+				  	title="“创启未来”2018国际青年科技创业大赛">“创启未来”2018国际青年科技创业大赛 </a>
+				  	<p>2018-05-20</p>
+				  </li>
+				  <li><a href="http://www.mcm.edu.cn/html_cn/block/47e695f17b212998cc59a2c4ff0ce219.html" target="_blank" 
+				  	title="2018 高教社杯全国大学生数学建模竞赛">2018 高教社杯全国大学生数学建模竞赛 </a>
+				  	<p>2018-05-11</p>
+				  </li>
+				  <li><a href="http://www.chinaus-maker.org/" target="_blank" 
+				  	title="中美青年创客大赛（中华人民共和国教育部主办）">中美青年创客大赛（中华人民共和国教育部主办）</a>
+				  	<p>2018-05-08</p>
+				  </li>
+				  <li><a href="http://www.chuangqingchun.net/" target="_blank" 
+				  	title="2018年“创青春”全国大学生创业大赛（中国青年创新创业大赛大学生组） ">2018年“创青春”全国大学生创业大赛（中国青年创新创业大赛大学生组） </a>
+				  	<p>2018-05-03</p>
+				  </li>
+				  <li><a href="http://www.zncup.com/?referee=602" target="_blank" 
+				  	title="2018“芯火杯”全国智能硬件创新创业大赛">2018“芯火杯”全国智能硬件创新创业大赛 </a><p>2018-05-01</p>
+				  </li>
+				  <li><a href="https://developers.weixin.qq.com/competition/index" target="_blank" 
+				  	title="2018中国高校计算机大赛——微信小程序应用开发赛 ">2018中国高校计算机大赛——微信小程序应用开发赛 </a>
+				  	<p>2018-04-13</p>
+				  </li>
+				  <li><a href="http://www.pac-hpc.com/" target="_blank" 
+				  	title="第六届全国并行应用挑战赛（PAC2018）">第六届全国并行应用挑战赛（PAC2018）</a>
+				  	<p>2018-04-11</p>
+				  </li>
+				  <li><a href="http://iot.sjtu.edu.cn/" target="_blank" 
+				  	title="2018年全国大学生物联网设计竞赛（TI杯）">2018年全国大学生物联网设计竞赛（TI杯） </a>
+				  	<p>2018-03-26</p>
+				  </li>
+				  <li><a href="http://www.cnsoftbei.com/" target="_blank" 
+				  	title="第七届“中国软件杯”大学生软件设计大赛">第七届“中国软件杯”大学生软件设计大赛</a>
+				    <p>2018-03-13</p>
+				  </li>
+				  <li><a href="http://codecraft.huaweicloud.com/" target="_blank" 
+				  	title="2018届华为软件精英挑战赛 ">2018届华为软件精英挑战赛 </a>
+				  	<p>2018-03-05</p>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+    	</div>
+      </div>
+    </div>
+  </section>
+  <!--
+       作者：徐仕成
+       时间：2018-07-25
+       描述：end 主体部分
+   -->
+   
+  <!--
+       作者：徐仕成
+       时间：2018-07-25
+       描述：start 底部
+  -->
+ <footer id="endfooter">
+	  <div class="container">
+		<div class="row">
+		  <div class="col-md-12">
+			<p>Copyright&copy;2018-11-2 by 徐仕成 版本号：2.1</p>
+			<p>本平台内容来自互联网，如内容有侵权，请联系本人删除。&nbsp;&nbsp;鄂ICP备18020158号</p>
+			<p>联系电话：15897677961	QQ：2775886918	微信：15897677961</p>
+		  </div>
+		</div>
+	  </div>
+  </footer>
+  <!--
+       作者：徐仕成
+       时间：2018-07-25
+       描述：end 底部
+  -->
+</body>
+</html>

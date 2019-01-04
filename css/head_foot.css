@@ -1,0 +1,37 @@
+/*头部*/
+#header {
+	background-color: #00FFFF; 
+	height: 70px; 
+	box-shadow: 0px 2px 8px #00CCFF; 
+	border: none;
+	}
+.navbar-header img{
+	margin-top: 16px;
+	}
+.navbar-default .navbar-nav>li>a {
+	font-size: 18px; 
+	line-height: 35px; 
+	color: #0099CC; 
+	padding-left: 50px; 
+	transition: .3s;
+	}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #996600;  
+	transform-origin: center top; 
+    transform: scale(1.1); 
+    }
+#header .active { color: #CC9900; }
+/*底部*/
+#endfooter { 
+	width: 100%; 
+	height: auto; 
+	background-color: #00FFFF; 
+	border-top: 1px solid #00CCFF;
+}
+#endfooter .col-md-12 {
+	margin: 2px auto; 
+	font-size: 14px; 
+	font-family: "times new roman";
+	text-align: center; 
+	line-height: 24px;
+} 
